@@ -15,6 +15,8 @@ import { BackButtonComponent } from './components/back-button/back-button.compon
 import { RedesSocialesComponent } from './components/redes-sociales/redes-sociales.component';
 import { PedidosComponent } from './components/pedidos/pedidos.component';
 import { FormularioPedidosComponent } from './components/pedidos/formulario-pedidos/formulario-pedidos.component';
+import { LightboxComponent } from './components/pedidos/lightbox/lightbox.component';
+import { PortadaComponent } from './components/pedidos/portada/portada.component';
 
 
 @NgModule({
@@ -31,7 +33,9 @@ import { FormularioPedidosComponent } from './components/pedidos/formulario-pedi
     BackButtonComponent,
     RedesSocialesComponent,
     PedidosComponent,
-    FormularioPedidosComponent
+    FormularioPedidosComponent,
+    LightboxComponent,
+    PortadaComponent
   ],
   imports: [
     BrowserModule,

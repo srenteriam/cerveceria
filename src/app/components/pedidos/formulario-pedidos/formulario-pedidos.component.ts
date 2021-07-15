@@ -8,8 +8,18 @@ import { Component, OnInit } from '@angular/core';
 export class FormularioPedidosComponent implements OnInit {
 
   constructor() { }
+  
+//   incrementar() {
+//     valor = document.getElementById("item");
+//     if (valor.value < 100) valor.value++;
+
+// }
 
   ngOnInit(): void {
+    
   }
+
+ 
+
 
 }
