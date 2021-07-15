@@ -13,6 +13,8 @@ import { SobrenosotrosComponent } from './components/contacto/sobrenosotros/sobr
 import { FormularioContactoComponent } from './components/contacto/formulario-contacto/formulario-contacto.component';
 import { BackButtonComponent } from './components/back-button/back-button.component';
 import { RedesSocialesComponent } from './components/redes-sociales/redes-sociales.component';
+import { PedidosComponent } from './components/pedidos/pedidos.component';
+import { FormularioPedidosComponent } from './components/pedidos/formulario-pedidos/formulario-pedidos.component';
 
 
 @NgModule({
@@ -27,7 +29,9 @@ import { RedesSocialesComponent } from './components/redes-sociales/redes-social
     SobrenosotrosComponent,
     FormularioContactoComponent,
     BackButtonComponent,
-    RedesSocialesComponent
+    RedesSocialesComponent,
+    PedidosComponent,
+    FormularioPedidosComponent
   ],
   imports: [
     BrowserModule,
