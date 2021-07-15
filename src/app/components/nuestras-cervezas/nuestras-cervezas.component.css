@@ -1,0 +1,392 @@
+.section1{
+    margin-top: 120px;
+    height: 460px; 
+}
+
+.section1 h1{
+    font-size: 50px;
+    font-family: 'Gruppo', cursive;
+    color: #89640a;
+}
+
+.divsect1{
+    height: 100%;
+    text-align: right;
+}
+
+.imgsection1 img{
+    position: relative;
+    height: 50%;
+    width: 50%;
+    padding-top: 30px;
+    z-index: 150;
+    
+}
+
+.img1 {
+    animation: rotacion1 5s infinite;
+}
+
+@keyframes rotacion1{
+    0%{
+        transform: rotate(8deg);
+
+    }
+    25%{
+        transform: rotate(0deg);
+
+    }
+    50%{
+        transform: rotate(8deg);
+        
+
+    }
+    75%{
+        transform: rotate(0deg);
+
+    }
+    100%{
+        transform: rotate(8deg);
+    }
+}
+
+.img2 {
+    animation: rotacion2 5s infinite;
+}
+
+@keyframes rotacion2{
+    0%{
+        transform: rotate(-8deg);
+
+    }
+    25%{
+        transform: rotate(0deg);
+
+    }
+    50%{
+        transform: rotate(-8deg);
+        
+
+    }
+    75%{
+        transform: rotate(0deg);
+
+    }
+    100%{
+        transform: rotate(-8deg);
+    }
+}
+
+
+
+/* Burbujas */
+/* 
+.burbuja{
+    background: #89640a;
+    border-radius: 50%;
+    opacity: .3;
+    position: absolute;
+    bottom: -150;
+    animation: burbujas 3s linear infinite;
+}
+
+.burbuja:nth-child(1){
+    width: 80px;
+    height: 80px;
+    left: 5%;
+    animation-duration: 3s;
+}
+
+.burbuja:nth-child(2){
+    width: 60px;
+    height: 60px;
+    left: 17%;
+    animation-duration: 3s;
+    animation-delay: 2s;
+}
+
+.burbuja:nth-child(3){
+    width: 100px;
+    height: 100px;
+    left: 40%;
+    animation-duration: 6s;
+    animation-delay: 4s;
+}
+
+.burbuja:nth-child(4){
+    width: 30px;
+    height: 30px;
+    left: 70%;
+    animation-duration: 4s;
+    animation-delay: 1s;
+}
+
+.burbuja:nth-child(5){
+    width: 77px;
+    height: 77px;
+    left: 63%;
+    animation-duration: 5s;
+    animation-delay: 4s;
+}
+.burbuja:nth-child(6){
+    width: 50px;
+    height: 50px;
+    left: 30%;
+    animation-duration: 3s;
+    animation-delay: 7s;
+}
+
+.burbuja:nth-child(7){
+    width: 60px;
+    height: 60px;
+    left: 75%;
+    animation-duration: 5s;
+    animation-delay: 1s;
+}
+
+.burbuja:nth-child(8){
+    width: 30px;
+    height: 30px;
+    left: 83%;
+    animation-duration: 4s;
+    animation-delay: 3s;
+}
+
+.burbuja:nth-child(9){
+    width: 50px;
+    height: 50px;
+    left: 94%;
+    animation-duration: 4s;
+    animation-delay: 0;
+}
+
+@keyframes burbujas{
+    0%{
+        bottom: 0;
+        opacity: 0;
+    }
+    30%{
+        transform: translateX(30px);
+    }
+    50%{
+        opacity: .4;
+    }
+    100%{
+        bottom: 100vh;
+        opacity: 0;
+    }
+} */
+
+
+
+/* Clara */
+
+.clara{
+    background-color: #9b6870;
+}
+
+.artclara h2{
+    margin-top: 50px;
+    margin-bottom: 10px;
+    color: white;
+    font-size: 40px;
+    font-family: 'Gruppo', cursive;
+}
+
+.artclara p{
+    margin-top: 10px;
+    margin-bottom: 0px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Gruppo', cursive;
+}
+
+.artclara h3{
+    margin-top: 10px;
+    color: white;
+    font-size: 30px;
+    font-family: 'Gruppo', cursive;
+}
+
+.imgclara{
+   height: 250px;
+   margin-top: 50px;
+}
+
+/* morena */
+
+.morena{
+    background-color: #312728;
+}
+
+.artmorena h2{
+    margin-top: 50px;
+    margin-bottom: 10px;
+    color: white;
+    font-size: 40px;
+    font-family: 'Gruppo', cursive;
+}
+
+.artmorena p{
+    margin-top: 10px;
+    margin-bottom: 0px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Gruppo', cursive;
+}
+
+.artmorena h3{
+    margin-top: 10px;
+    color: white;
+    font-size: 30px;
+    font-family: 'Gruppo', cursive;
+}
+
+.imgmorena{
+   height: 250px;
+   margin-top: 50px;
+}
+
+
+
+/* Rubia */
+
+.rubia{
+    background-color: #af8e1f;
+}
+
+.artrubia h2{
+    margin-top: 50px;
+    margin-bottom: 10px;
+    color: white;
+    font-size: 40px;
+    font-family: 'Gruppo', cursive;
+}
+
+.artrubia p{
+    margin-top: 10px;
+    margin-bottom: 0px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Gruppo', cursive;
+}
+
+.artrubia h3{
+    margin-top: 10px;
+    color: white;
+    font-size: 30px;
+    font-family: 'Gruppo', cursive;
+}
+
+.imgrubia{
+   height: 250px;
+   margin-top: 50px;
+}
+
+/* boton */
+
+.boton {
+    width: 300px;
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    color:white;
+    font-size: 16px;
+    text-decoration: none;
+    overflow: hidden;
+    transition: .5s;
+    margin-top: 40px;
+    letter-spacing: 4px;
+    font-family: 'Gruppo', cursive;
+  }
+  
+  .boton:hover {
+    background: white;
+    color: #89640a;
+    border-radius: 5px;
+    box-shadow: 0 0 5px white,
+                0 0 25px white,
+                0 0 50px white,
+                0 0 100px white;
+  }
+  
+  .boton span {
+    position: absolute;
+    display: block;
+  }
+  
+  .boton span:nth-child(1) {
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, white);
+    animation: btn-anim1 1s linear infinite;
+  }
+  
+  @keyframes btn-anim1 {
+    0% {
+      left: -100%;
+    }
+    50%,100% {
+      left: 100%;
+    }
+  }
+  
+  .boton span:nth-child(2) {
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent, white);
+    animation: btn-anim2 1s linear infinite;
+    animation-delay: .25s
+  }
+  
+  @keyframes btn-anim2 {
+    0% {
+      top: -100%;
+    }
+    50%,100% {
+      top: 100%;
+    }
+  }
+  
+  .boton span:nth-child(3) {
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg, transparent, white);
+    animation: btn-anim3 1s linear infinite;
+    animation-delay: .5s
+  }
+  
+  @keyframes btn-anim3 {
+    0% {
+      right: -100%;
+    }
+    50%,100% {
+      right: 100%;
+    }
+  }
+  
+  .boton span:nth-child(4) {
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg, transparent, white);
+    animation: btn-anim4 1s linear infinite;
+    animation-delay: .75s
+  }
+  
+  @keyframes btn-anim4 {
+    0% {
+      bottom: -100%;
+    }
+    50%,100% {
+      bottom: 100%;
+    }
+  }
+  

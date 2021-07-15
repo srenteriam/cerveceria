@@ -1,0 +1,26 @@
+footer{
+    background-color: white;
+    color: #89640a;
+    font-size: 20px;
+    font-family: 'Gruppo', cursive;
+}
+
+.imgfooter img{
+    height: 40px;
+    width: 40px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+}
+
+.imgfooter{
+    display: flex;
+    justify-content: center;
+}
+
+.parrafooter{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 20px;
+}

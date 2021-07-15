@@ -1,0 +1,22 @@
+header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    z-index: 200;
+}
+
+.menu1{
+    background-color: white;
+}
+
+.tipografia{
+    color: #89640a;
+    font-size: 22px;
+    text-decoration: none;
+    font-family: 'Gruppo', cursive;
+}
+
+.tipografia:hover{
+    color: black;
+}
