@@ -1,3 +1,5 @@
+/* seccion 1 */
+
 .section1{
     padding-top:  130px;   
 }
@@ -18,6 +20,8 @@
     font-family: 'Gruppo', cursive;
     color: black;
 }
+
+/* seccion 2 */
 
 .section2{
     background-color: #efb810;
@@ -46,6 +50,26 @@
     margin-bottom: 0px;
     padding-bottom: 0px; 
 }
+
+/* seccion 3 */
+
+.section3{
+    padding-top:  50px;   
+}
+
+.artsection3{
+    width: 80%;
+    background-size: 100%;
+    
+} 
+
+.artsection3 h2{
+    margin: 100px;
+    opacity: 150%;
+    color: white;
+}
+
+
 
 
 /* Alerta */
