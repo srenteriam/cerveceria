@@ -19,6 +19,7 @@ import { LightboxComponent } from './components/pedidos/lightbox/lightbox.compon
 import { PortadaComponent } from './components/pedidos/portada/portada.component';
 import { FormsModule } from '@angular/forms';
 import { TargetasComponent } from './components/pedidos/targetas/targetas.component';
+import { PortadaMAComponent } from './components/pedidos/portada-ma/portada-ma.component';
 
 
 
@@ -39,7 +40,8 @@ import { TargetasComponent } from './components/pedidos/targetas/targetas.compon
     FormularioPedidosComponent,
     LightboxComponent,
     PortadaComponent,
-    TargetasComponent
+    TargetasComponent,
+    PortadaMAComponent
   ],
   imports: [
     BrowserModule,
