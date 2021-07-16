@@ -7,6 +7,7 @@ import { MenuComponent } from './components/menu/menu.component';
 import { InicioComponent } from './components/inicio/inicio.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { NuestrasCervezasComponent } from './components/nuestras-cervezas/nuestras-cervezas.component';
+import { QuienesSomosComponent } from './components/quienes-somos/quienes-somos.component';
 
 
 @NgModule({
@@ -15,7 +16,8 @@ import { NuestrasCervezasComponent } from './components/nuestras-cervezas/nuestr
     MenuComponent,
     InicioComponent,
     FooterComponent,
-    NuestrasCervezasComponent
+    NuestrasCervezasComponent,
+    QuienesSomosComponent
   ],
   imports: [
     BrowserModule,
