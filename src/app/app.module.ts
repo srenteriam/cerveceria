@@ -18,6 +18,7 @@ import { FormularioPedidosComponent } from './components/pedidos/formulario-pedi
 import { LightboxComponent } from './components/pedidos/lightbox/lightbox.component';
 import { PortadaComponent } from './components/pedidos/portada/portada.component';
 import { FormsModule } from '@angular/forms';
+import { TargetasComponent } from './components/pedidos/targetas/targetas.component';
 
 
 
@@ -37,7 +38,8 @@ import { FormsModule } from '@angular/forms';
     PedidosComponent,
     FormularioPedidosComponent,
     LightboxComponent,
-    PortadaComponent
+    PortadaComponent,
+    TargetasComponent
   ],
   imports: [
     BrowserModule,
