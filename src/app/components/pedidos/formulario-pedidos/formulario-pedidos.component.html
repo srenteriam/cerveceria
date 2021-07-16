@@ -72,11 +72,11 @@
             <div class="col-12 col-sm-4 mt-3 " data-aos="fade-up" data-aos-duration="4000">
                 <div>
                     <h5 class="h5_font">Rubia</h5>
-                    <button onchange=" restaCervezas(this.value)" class="btn-input" id="aumentar" type="button" onclick="decrementar(), restaCervezas()" class="c-icon-button c-number-value" style="background-color: #F9ECC7;border: 0;width: 40px;height: 35px;" tabindex="-1">-</button>
+                    <button onchange=" restaCervezas(this.value)" onclick="decrementar(), restaCervezas()" class="btn-input" id="aumentar" type="button"  class="c-icon-button c-number-value" style="background-color: #F9ECC7;border: 0;width: 40px;height: 35px;" tabindex="-1">-</button>
 
-                    <input class="ipt" type="text" value="0" id="item" name="item">
+                    <input class="ipt" value="0" id="item" name="item">
 
-                    <button value="suma" onclick="incrementar(), totalCervezas()" class="btn-input" id="desminuir" type="button" class="c-icon-button c-number-value" style="background-color: #F9ECC7;border: 0;width: 40px;height: 35px;">+</button>
+                    <button onclick="incrementar(), totalCervezas()"  value="suma"  class="btn-input" id="desminuir" type="button" class="c-icon-button c-number-value" style="background-color: #F9ECC7;border: 0;width: 40px;height: 35px;">+</button>
                 </div>
             </div>
             <div class="col-12 col-sm-4 mt-3" data-aos="fade-up" data-aos-duration="4000">
@@ -84,11 +84,11 @@
 
 
                     <h5 class="h5_font">Morena</h5>
-                    <button class="btn-input" id="aumentar" type="button" onclick="decrementarr(), restaCervezas()" class="c-icon-button c-number-value" style="background-color: #F9ECC7;border: 0;width: 40px;height: 35px;" tabindex="-1">-</button>
+                    <button  class="btn-input" id="aumentar" type="button" onclick="decrementarr(), restaCervezas()"   class="c-icon-button c-number-value" style="background-color: #F9ECC7;border: 0;width: 40px;height: 35px;" tabindex="-1">-</button>
 
                     <input class="ipt" type="text" value="0" id="itemm" name="itemm">
 
-                    <button class="btn-input-bt" id="desminuir" type="button" onclick="incrementarr(), totalCervezas()" class="c-icon-button c-number-value" style="background-color: #F9ECC7;border: 0;width: 40px;height: 35px;">+</button>
+                    <button  class="btn-input-bt" id="desminuir" type="button" onclick="incrementarr(), totalCervezas()"   class="c-icon-button c-number-value" style="background-color: #F9ECC7;border: 0;width: 40px;height: 35px;">+</button>
                 </div>
             </div>
 
@@ -96,11 +96,11 @@
             <div class="col-12 col-sm-4 mt-3" data-aos="fade-up" data-aos-duration="4000">
                 <div>
                     <h5 class="h5_font">Clara</h5>
-                    <button class="btn-input" id="aumentar" type="button" onclick="decrementars(), restaCervezas()" class="c-icon-button c-number-value" style="background-color: #F9ECC7;border: 0;width: 40px;height: 35px;" tabindex="-1">-</button>
+                    <button  class="btn-input" id="aumentar" onclick="decrementars(), restaCervezas()"  type="button" class="c-icon-button c-number-value" style="background-color: #F9ECC7;border: 0;width: 40px;height: 35px;" tabindex="-1">-</button>
 
-                    <input class="ipt" type="text" value="0" id="items" name="item">
+                    <input  class="ipt" type="text" value="0" id="items" name="item">
 
-                    <button class="btn-input" id="desminuir" type="button" onclick="incrementars(), totalCervezas()" onchange="totalCervezas(this.value)" class="c-icon-button c-number-value" style="background-color: #F9ECC7;border: 0;width: 40px;height: 35px;">+</button>
+                    <button  class="btn-input" id="desminuir" type="button"   class="c-icon-button c-number-value" style="background-color: #F9ECC7;border: 0;width: 40px;height: 35px;" onclick="incrementars(), totalCervezas()" onchange="totalCervezas(this.value)" >+</button>
                 </div>
             </div>
         </div>
@@ -142,7 +142,9 @@
                 </div>
             </div>
         </div>
-        <input style="margin-right: 700px;" type="submit" value="Enviar pedido" class="btn btn-lg btn-dark mt-5 mb-5" onclick="btn()" data-aos="fade-up" data-aos-duration="4000">
+        <input style="margin-right: 700px;" type="submit" value="Enviar pedido" class="btn btn-lg btn-dark mt-5 mb-5" data-aos="fade-up" data-aos-duration="4000">
+
+        <!-- <input style="margin-right: 700px;" type="submit" value="Enviar pedido" class="btn btn-lg btn-dark mt-5 mb-5"  data-aos="fade-up" data-aos-duration="4000"> -->
 
     </div>
 

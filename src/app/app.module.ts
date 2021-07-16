@@ -17,6 +17,8 @@ import { PedidosComponent } from './components/pedidos/pedidos.component';
 import { FormularioPedidosComponent } from './components/pedidos/formulario-pedidos/formulario-pedidos.component';
 import { LightboxComponent } from './components/pedidos/lightbox/lightbox.component';
 import { PortadaComponent } from './components/pedidos/portada/portada.component';
+import { FormsModule } from '@angular/forms';
+
 
 
 @NgModule({
@@ -39,7 +41,8 @@ import { PortadaComponent } from './components/pedidos/portada/portada.component
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
