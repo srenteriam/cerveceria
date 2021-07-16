@@ -14,7 +14,13 @@ export class InicioComponent implements OnInit {
 
   
 
-  constructor() { }
+  constructor() { 
+    window.scroll({ 
+      top: 0,
+      left: 0, 
+      behavior: 'smooth' 
+    })
+  }
 
   ngOnInit(): void {
     Swal.fire({
