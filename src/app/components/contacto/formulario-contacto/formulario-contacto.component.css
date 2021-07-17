@@ -885,3 +885,18 @@ section {
 #footer .credits a {
     color: #36d8c3;
 }
+
+/* validacion input */
+/* input:invalid {
+    border: 2px solid #000;
+  }
+  
+  input:invalid:required {
+    background-image: linear-gradient(to right, #EFB810, #EFB810);
+  }
+  
+  input:valid {
+    border: 2px solid black;
+  } */
+
+  

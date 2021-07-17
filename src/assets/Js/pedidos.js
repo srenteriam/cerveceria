@@ -97,3 +97,7 @@ window.onload = function() {
         document.getElementById('hero-background').style.width = '100%';
     })
 }
+
+// function ejemplo(){
+//     alert('Diego Trujillo')
+// }

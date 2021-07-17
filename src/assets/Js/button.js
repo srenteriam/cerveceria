@@ -171,4 +171,6 @@ function buscador_interno() {
 
 }
 
-
+function ejemplo(){
+    alert('Diego Trujillo')
+}

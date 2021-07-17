@@ -20,6 +20,8 @@ import { PortadaComponent } from './components/pedidos/portada/portada.component
 import { FormsModule } from '@angular/forms';
 import { TargetasComponent } from './components/pedidos/targetas/targetas.component';
 import { PortadaMAComponent } from './components/pedidos/portada-ma/portada-ma.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatSliderModule } from '@angular/material/slider';
 
 
 
@@ -41,12 +43,15 @@ import { PortadaMAComponent } from './components/pedidos/portada-ma/portada-ma.c
     LightboxComponent,
     PortadaComponent,
     TargetasComponent,
-    PortadaMAComponent
+    PortadaMAComponent,
+    
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    BrowserAnimationsModule,
+    MatSliderModule
   ],
   providers: [],
   bootstrap: [AppComponent]

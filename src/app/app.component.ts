@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import * as AOS from 'aos';
+import { MatSliderModule } from '@angular/material/slider'
 
 @Component({
   selector: 'app-root',
