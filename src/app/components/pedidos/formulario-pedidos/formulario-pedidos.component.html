@@ -19,7 +19,7 @@
       <!-- </div> -->
 
       <!-- input -->
-      <div class="container conte col-112 col-lg-8 col-md-12 col-sm-12" >
+      <div class="container conte col-112 col-lg-8 col-md-12 col-sm-12">
         <!-- Empieza nombre nombre-->
         <div class="row">
           <div class="col-12 col-sm-6">
@@ -41,7 +41,8 @@
               Nombre <span style="color: red">*</span>
             </h5>
             <input
-              type="text"
+              id="nombre"
+              type="number"
               class="form-control"
               placeholder="¿Como te llamas?"
               aria-label="Recipient's username"
@@ -79,8 +80,6 @@
         <!-- termina nombre nombre-->
 
         <div class="row mt-5">
-
-
           <!--Empieza los barriles-->
           <div class="col-10 col-sm-6">
             <h6
@@ -103,7 +102,6 @@
 
           <!-- Botellas -->
 
-
           <div class="col-10 col-sm-6">
             <div class="form-check">
               <input
@@ -116,12 +114,11 @@
               <label
                 class="form-check-label ress"
                 for="gridCheck"
-                
                 data-aos="fade-up"
                 data-aos-duration="4000"
               >
-              <!-- style="margin-right: 70%" -->
-            Botellas
+                <!-- style="margin-right: 70%" -->
+                Botellas
               </label>
             </div>
 
@@ -136,12 +133,11 @@
               <label
                 class="form-check-label res"
                 for="gridCheck"
-                
                 data-aos="fade-up"
                 data-aos-duration="4000"
               >
-              <!-- style="margin-right: 58%" -->
-            Barril 19 Litros
+                <!-- style="margin-right: 58%" -->
+                Barril 19 Litros
               </label>
             </div>
 
@@ -156,11 +152,10 @@
               <label
                 class="form-check-label res"
                 for="gridCheck"
-                
                 data-aos="fade-up"
                 data-aos-duration="4000"
               >
-              <!-- style="margin-right: 59%" -->
+                <!-- style="margin-right: 59%" -->
                 Barril 50 Litros
               </label>
             </div>
@@ -325,9 +320,11 @@
             data-aos="fade-up"
             data-aos-duration="4000"
           >
-            <h5 class="negrita" style="margin-left: -4px">Total Cervezas</h5>
+            <h5 class="negrita tts" style="margin-left: -4px">
+              Total Cervezas
+            </h5>
             <input
-              class="ipt"
+              class="ipt mb-3"
               type="text"
               value="0"
               id="total"
@@ -404,6 +401,7 @@
         </div>
         <input
           type="submit"
+          onclick="validiacion()"
           value="Enviar pedido"
           class="col btn btn-lg btn-dark mt-5 mb-5"
           data-aos="fade-up"

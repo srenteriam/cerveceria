@@ -1,3 +1,5 @@
+const { DOCUMENT } = require("@angular/common");
+
 // ****************rubia*****************************
 function incrementar() {
     valor = document.getElementById("item");
@@ -101,3 +103,26 @@ window.onload = function() {
 // function ejemplo(){
 //     alert('Diego Trujillo')
 // }
+
+// ========================== validacion=======================
+
+var nombre =  document.getElementById('nombre')
+
+
+
+function validiacion(){
+    
+
+    if (nombre == null) {
+        swal("error!", "Los campos no pueden ir vacios!", "error", {
+            button: "Aww yiss!",
+          });
+          return ;
+        
+        
+    }
+
+   
+
+}
+

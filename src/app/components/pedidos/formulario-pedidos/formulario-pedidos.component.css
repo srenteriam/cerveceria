@@ -148,6 +148,11 @@ body {
 } */
 .negrita{
     font-size: 16px;
+    
+}
+.tts{
+    margin-right: 50px;
+
 }
 @media (min-width: 580px) { 
     .res{
