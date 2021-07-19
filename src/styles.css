@@ -1,1 +1,48 @@
 /* You can add global styles to this file, and also import other style files */
+
+/* Alerta */
+
+.talerta {
+    color: #efb810 !important;
+    font-family: 'Gruppo', cursive !important;
+    font-size: 35px !important;
+}
+
+.palerta{
+    color: #89640a !important;
+    font-family: 'Gruppo', cursive !important;
+    font-size: 20px !important;
+}
+
+.confirmbutton{
+    margin: 5px !important;
+    background-color: #efb810 !important;
+    padding: 10px !important;
+    border-radius: 2% !important;
+    border: transparent !important;
+    border: solid 1px #89640a !important;
+    font-family: 'Gruppo', cursive !important;
+    color: black !important;
+}
+
+.confirmbutton:hover{
+    transform: translateY(-5px) !important;
+    transition: 1s !important;
+    box-shadow: 2px 12px 16px #89640a !important;
+}
+
+.denybutton{
+    margin: 5px !important;
+    background-color: #efb810 !important;
+    padding: 10px !important;
+    border-radius: 2% !important;
+    border: solid 1px #89640a !important;
+    font-family: 'Gruppo', cursive !important;
+    color: black !important;
+}
+
+.denybutton:hover{
+    transform: translateY(-5px) !important;
+    transition: 1s !important;
+    box-shadow: 2px 12px 16px #89640a !important;
+}
