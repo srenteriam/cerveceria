@@ -22,6 +22,8 @@ import { TargetasComponent } from './components/pedidos/targetas/targetas.compon
 import { PortadaMAComponent } from './components/pedidos/portada-ma/portada-ma.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatSliderModule } from '@angular/material/slider';
+import { HttpClientModule } from '@angular/common/http';
+
 
 
 
@@ -51,7 +53,8 @@ import { MatSliderModule } from '@angular/material/slider';
     AppRoutingModule,
     FormsModule,
     BrowserAnimationsModule,
-    MatSliderModule
+    MatSliderModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
