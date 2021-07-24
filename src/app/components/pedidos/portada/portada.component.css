@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@700&family=Roboto&display=swap');
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* ***************portada********************** */
+
+#hero-container {
+    height: 600px;
+}
+
+#hero-background {
+    /* background-color: #000; */
+    /* #14171d */
+    position: absolute;
+    width: 0;
+    height: 600px;
+    transition: 1s ease-in-out;
+}
+
+#hero-text {
+    margin-top: 200px;
+}
+
+
+/* .imgportada {
+    background-image: url('../Imagenes/Pedidos/cervezas-artesanales-2.jpg');
+    background-repeat: no-repeat;
+    height: 700px;
+    margin-top: 100px;
+} */
+
+
+/* .imgportada {
+    background-image: url('/Imagenes/Pedidos/imagen1.jpg');
+    background-repeat: no-repeat;
+    height: 600px;
+    width: 100%;
+} */
+
+.sectionportada {
+    margin-top: 150px;
+}
+
+.porImg img {
+    height: 400px;
+    margin-top: 70px;
+}
+
+.carousel-caption {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 10rem !important;
+    color: #000;
+    margin-right: 1500px !important;
+    bottom: 6.25rem;
+    /* width: 800px; */
+}
+
+.portxt {
+    margin-top: 400px;
+}
+
+.h-por {
+    font-size: 40px;
+    color: black;
+    font-family: 'Gruppo', cursive;
+}
+
+.p-por {
+    color: black;
+    font-size: 60px;
+    font-family: 'Gruppo', cursive;
+}
+
+
+/* *************Formulario************************* */
+
+.contenedor {
+    margin-top: -20px;
+    background-color: #EfB810;
+    padding-bottom: 100px;
+}
+
+.btn-input {
+    width: 40px;
+    height: 35px;
+    text-align: center;
+    border: 0;
+}
+
+.ipt {
+    width: 45px;
+    height: 35px;
+    text-align: center;
+    border: 0;
+}
+
+
+/* #FFF2CC */
+
+.conte {
+    background-color: #f2f3f2;
+    /* width: 820px; */
+    /* height: 950px; */
+    padding-top: 20px;
+    box-shadow: 0px 1px 30px -18px black;
+    border-radius: 20px;
+}
+
+
+/* section {
+    background-color: #EfB810;
+    padding-bottom: 100px;
+} */
+
+.agenda {
+    background-color: #EfB810;
+    color: white;
+    padding-top: 100px;
+}
+
+.realizar {
+    border: 0;
+    height: 50px;
+    width: 150px;
+}
+
+.font-2 {
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.font-3 {
+    font-size: 25px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+}
+
+.font {
+    font-weight: 700;
+    font-family: 'Big Shoulders Stencil Display', cursive;
+    font-size: 50px
+}
+
+.h5_font {
+    font-family: 'Big Shoulders Stencil Display', cursive;
+    font-size: 25px;
+}
+
+

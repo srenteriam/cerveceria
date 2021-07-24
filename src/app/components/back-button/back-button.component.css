@@ -1,0 +1,35 @@
+
+.ir-arriba {
+	display:none;
+	padding:20px;
+	background:#EFB810;
+	font-size:20px;
+	color:#fff;
+	cursor:pointer;
+	position: fixed;
+	bottom:20px;
+	right:20px;
+    border-radius: 50px;
+    width: 40px;
+    height: 40px;
+    transition: all 0.4s;
+    
+  
+}
+.ir-arriba:hover{
+    color: #EFB810;
+    background: #fff;
+    transition: 0.3s;
+    border: 1px solid #EFB810;
+}
+.ir-arriba i {
+    font-size: 28px;
+    
+    line-height: 0;
+}
+.ir-arriba.active {
+    visibility: visible;
+    opacity: 1;
+}
+ 
+ 
