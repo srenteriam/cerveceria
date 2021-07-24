@@ -38,7 +38,7 @@ import { HttpClientModule } from '@angular/common/http';
     FooterComponent,
     NuestrasCervezasComponent,
 
-    QuienesSomosComponent
+    QuienesSomosComponent,
 
     ContactoComponent,
     SuscribeComponent,
