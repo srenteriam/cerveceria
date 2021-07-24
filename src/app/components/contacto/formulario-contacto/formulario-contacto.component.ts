@@ -43,8 +43,13 @@ nombreC="";
     
     console.log('Estamos registrando')
 
+<<<<<<< Updated upstream
     this.Peticion.Post('http://localhost:3000/crearContacto',{nombre:this.nombreC,email:this.emailC,sujeto:this.sujetoC,mensaje:this.mensajeC}).then(
       (res)=> {
+=======
+    this.Peticion.Post('http://localhost:3000/crearContacto',{nombre:this.nombre,email:this.email,sujeto:this.sujeto,mensaje:this.mensaje}).then(
+      (res)=>
+>>>>>>> Stashed changes
       console.log(res)
       })}
     if(this.validarformulario() == true ){
