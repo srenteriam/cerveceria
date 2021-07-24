@@ -1,6 +1,6 @@
 <section class="contenedor">
   <div class="container text-center row-12">
-    <form action="" class="formulario" id="formulario" class="row g-3">
+    <div action="" class="formulario" id="formulario" class="row g-3">
       <div class="row">
         <div class="col-12 col-sm-12 p-5">
           <h1 class="font" data-aos="fade-up" data-aos-duration="4000">
@@ -42,7 +42,7 @@
             </h5>
             <input
               id="nombre"
-              type="number"
+              type="text"
               class="form-control"
               placeholder="¿Como te llamas?"
               aria-label="Recipient's username"
@@ -50,7 +50,8 @@
               required
               data-aos="fade-up"
               data-aos-duration="4000"
-            />
+              [(ngModel)]="nombreP"
+            >
             <h5
               style="text-align: initial; font-size: 16px"
               data-aos="fade-up"
@@ -74,6 +75,7 @@
               required
               data-aos="fade-up"
               data-aos-duration="4000"
+              [(ngModel)]="correoP"
             />
           </div>
         </div>
@@ -110,6 +112,7 @@
                 id="gridCheck"
                 data-aos="fade-up"
                 data-aos-duration="4000"
+                [(ngModel)]="tipoP"
               />
               <label
                 class="form-check-label ress"
@@ -129,6 +132,7 @@
                 id="gridCheck"
                 data-aos="fade-up"
                 data-aos-duration="4000"
+                [(ngModel)]="tipoP"
               />
               <label
                 class="form-check-label res"
@@ -148,6 +152,7 @@
                 id="gridCheck"
                 data-aos="fade-up"
                 data-aos-duration="4000"
+                [(ngModel)]="tipoP"
               />
               <label
                 class="form-check-label res"
@@ -198,7 +203,7 @@
                 -
               </button>
 
-              <input class="ipt" value="0" id="item" name="item" />
+              <input class="ipt" value="0" id="item" name="item" type="text" [(ngModel)]="redAleP"/>
 
               <button
                 onclick="incrementar(), totalCervezas()"
@@ -248,6 +253,7 @@
                 value="0"
                 id="itemm"
                 name="itemm"
+                [(ngModel)]="porterP"
               />
 
               <button
@@ -292,7 +298,7 @@
                 -
               </button>
 
-              <input class="ipt" type="text" value="0" id="items" name="item" />
+              <input class="ipt" type="text" value="0" id="items" name="item" [(ngModel)]="paleAleP" />
 
               <button
                 class="btn-input"
@@ -331,6 +337,7 @@
               name="total"
               required
               style="margin-right: 80px"
+              [(ngModel)]="totalP"
             />
           </div>
         </div>
@@ -352,6 +359,7 @@
                 aria-label="With textarea"
                 placeholder="Escriba tu direccion de entrega"
                 required
+                [(ngModel)]="direccionP"
               ></textarea>
             </div>
           </div>
@@ -375,6 +383,7 @@
               aria-label="Example text with button addon"
               aria-describedby="button-addon1"
               required
+              [(ngModel)]="telefonoP"
             />
           </div>
         </div>
@@ -395,18 +404,21 @@
                 placeholder="Nos puedes contar algun requerimiento especifico de tu pedido, o algun detalle de la dirección que debamos anotar"
                 aria-label="With textarea"
                 required
+                [(ngModel)]="comentarioP"
               ></textarea>
             </div>
           </div>
         </div>
-        <input
-          type="submit"
-          onclick="validiacion()"
-          value="Enviar pedido"
-          class="col btn btn-lg btn-dark mt-5 mb-5"
+        <div>
+         <button class="col btn btn-lg btn-dark mt-5 mb-5"
           data-aos="fade-up"
           data-aos-duration="4000"
-        />
+          (click)="crearpedido()">Enviar pedido</button>
+        
+       
+          
+        </div>
+     
 
         <!-- 
         <input style="margin-right: 700px;" type="submit" value="Enviar pedido" class="btn btn-lg btn-dark mt-5 mb-5"  data-aos="fade-up" data-aos-duration="4000"> -->
@@ -417,6 +429,6 @@
     </div> -->
 
       <!-- </section> -->
-    </form>
+  </div>
   </div>
 </section>

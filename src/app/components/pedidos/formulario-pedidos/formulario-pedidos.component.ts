@@ -1,5 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { FormsModule } from '@angular/forms';
+import { Router } from '@angular/router';
+import { PeticionService } from '../../../services/peticion.service';
+
 
 @Component({
   selector: 'app-formulario-pedidos',
@@ -7,65 +10,62 @@ import { FormsModule } from '@angular/forms';
   styleUrls: ['./formulario-pedidos.component.css']
 })
 export class FormularioPedidosComponent implements OnInit {
-  valor=0
-  valorrr=0
-  val=0
-  valorr=0
-  inp=0
-  total=0
-  totall=0
-  valoresss=0
-  constructor() { }
+
+  nombreP = "";
+  correoP = "";
+  tipoP = "";
+  redAleP = "";
+  porterP = "";
+  paleAleP = "";
+  totalP = "";
+  direccionP = "";
+  telefonoP  = "";
+  comentarioP = "";
   
-   // RUBIA
-
-  incrementar() {
-    
-    if(this.valor< 100){
-      this.valor++
-    }
-    
- 
-}
-decrementar(){
-  if(this.valor > 0){
-    this.valor--
-  }
-}
-// ========= FIN
-
-// MORENA
-sumar() {
-    
-  if(this.inp < 100){
-    this.inp++
-  }
-}
-resta(){
-  if(this.inp > 0){
-    this.inp--
-  }
-}
-// ==========
-
-// CLARA
-
-// va(){
-//   if
-// }
-
-totalCervezas(){
-
-this.total = this.valor + this.inp + this.val
-
-}
-
-
+  constructor(private Peticion:PeticionService, private router:Router) { }
+  
   ngOnInit(): void {
     
   }
 
+  crearpedido(){
+  
+    console.log('Estamos Registrando')
+
+    this.Peticion.Post('http://localhost:3000/create',{
+      nombre:this.nombreP, 
+      correo:this.correoP,
+      tipo: this.tipoP,
+      redAle: this.redAleP,
+      porter: this.porterP,
+      paleAle: this.paleAleP,
+      total: this.totalP,
+      direccion: this.direccionP,
+      telefono: this.telefonoP,  
+      comentario: this.comentarioP 
+    }).then(
+      (res) => {
+        console.log(res)
+      })
+
+    
+      this.router.navigate(["/inicio"])
+    }
+  
  
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
