@@ -63,7 +63,7 @@
                 >Your Name <span style="color: red">*</span></label
               >
               <input 
-              
+              [(ngModel)]="nombre"
                 type="text"
                 name="name"
                 placeholder="( ͡❛ ͜ʖ ͡❛)    Your Name"
@@ -81,8 +81,8 @@
               <label for="name" 
                 >Your Email <span  style="color: red">*</span></label 
               >
-              <input  required
-              
+              <input
+              [(ngModel)]="email"              
                 type="email"
                 class="form-control"
                 placeholder="(ノ ͡ಠ ͜ʖ ͡ಠ)ノ   info@example.com                                ✉"
@@ -99,8 +99,8 @@
             data-aos-duration="4000"
           >
             <label for="name">Subject <span style="color: red">*</span></label>
-            <input required
-            
+            <input
+            [(ngModel)]="sujeto"            
               type="text"
               class="form-control"
               placeholder="( ͡ಠ ͜ʖ ͡ಠ)   Subject"
@@ -116,7 +116,7 @@
           >
             <label for="name">Message <span style="color: red">*</span></label>
             <textarea
-            
+            [(ngModel)]="mensaje"            
               class="form-control"
               name="message"
               placeholder="    (⊙.⊙(☉̃ₒ☉)⊙.⊙)         Menssage"

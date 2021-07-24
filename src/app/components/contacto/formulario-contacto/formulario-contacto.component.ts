@@ -17,12 +17,18 @@ export class FormularioContactoComponent implements OnInit {
 
   ngOnInit(): void {
   }
-// nombre="Diego"
+ nombre:string="";
+ email:string="";
+ sujeto:string="";
+ mensaje:string="";
 
   registrar(){
     console.log('Estamos registrando')
 
-    this.Peticion.Post('http://localhost:3000/crearContactos',{nombre:'nombre',email:'diegotrujillo0210@gmail.com',sujeto:'ERROR',mensaje:'De Medellin'})
+    this.Peticion.Post('http://localhost:3000/crearContactos',{nombre:'this.nombre',email:'this.email',sujeto:'this.sujeto',mensaje:'this.mensaje'}).then(
+      (res)=>
+      console.log(res)
+    )
     
   }
 
