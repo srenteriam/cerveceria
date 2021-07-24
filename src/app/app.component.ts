@@ -9,14 +9,7 @@ import { MatSliderModule } from '@angular/material/slider';
 })
 export class AppComponent {
   title = 'cerveceria';
-  nombre = 10;
-  email = 20;
-  subjecto = 30;
-  mensaje = 40;
-
-  // calcular() {
-  //   alert("Diego Trujillo")
-  // }
+  
 
   ngAfterViewInit() {
     AOS.init();
