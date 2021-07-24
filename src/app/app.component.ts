@@ -10,11 +10,6 @@ import { MatSliderModule } from '@angular/material/slider';
 export class AppComponent {
   title = 'cerveceria';
   
-<<<<<<< Updated upstream
-=======
-
-  
->>>>>>> Stashed changes
 
   ngAfterViewInit() {
     AOS.init();
