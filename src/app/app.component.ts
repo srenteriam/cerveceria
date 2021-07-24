@@ -10,13 +10,7 @@ import { MatSliderModule } from '@angular/material/slider';
 export class AppComponent {
   title = 'cerveceria';
   
-<<<<<<< HEAD
 
-
-  
-
-=======
->>>>>>> b003aefd8035fad17261bec716aad3f9f15e2579
 
   ngAfterViewInit() {
     AOS.init();
