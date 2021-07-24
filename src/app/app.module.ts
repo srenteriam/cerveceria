@@ -7,6 +7,9 @@ import { MenuComponent } from './components/menu/menu.component';
 import { InicioComponent } from './components/inicio/inicio.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { NuestrasCervezasComponent } from './components/nuestras-cervezas/nuestras-cervezas.component';
+
+import { QuienesSomosComponent } from './components/quienes-somos/quienes-somos.component';
+
 import { ContactoComponent } from './components/contacto/contacto.component';
 import { SuscribeComponent } from './components/contacto/suscribe/suscribe.component';
 import { SobrenosotrosComponent } from './components/contacto/sobrenosotros/sobrenosotros.component';
@@ -34,6 +37,9 @@ import { HttpClientModule } from '@angular/common/http';
     InicioComponent,
     FooterComponent,
     NuestrasCervezasComponent,
+
+    QuienesSomosComponent
+
     ContactoComponent,
     SuscribeComponent,
     SobrenosotrosComponent,
@@ -47,6 +53,7 @@ import { HttpClientModule } from '@angular/common/http';
     TargetasComponent,
     PortadaMAComponent,
     
+
   ],
   imports: [
     BrowserModule,
