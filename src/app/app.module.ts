@@ -26,6 +26,7 @@ import { PortadaMAComponent } from './components/pedidos/portada-ma/portada-ma.c
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatSliderModule } from '@angular/material/slider';
 import { HttpClientModule } from '@angular/common/http';
+import { PaginaEnMantenimientoComponent } from './components/pagina-en-mantenimiento/pagina-en-mantenimiento.component';
 
 
 
@@ -52,6 +53,7 @@ import { HttpClientModule } from '@angular/common/http';
     PortadaComponent,
     TargetasComponent,
     PortadaMAComponent,
+    PaginaEnMantenimientoComponent,
     
 
   ],
