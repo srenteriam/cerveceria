@@ -235,6 +235,7 @@ img {
 
 body {
     
+    
     font-family: 'Work Sans', sans-serif;
     background: url(/assets/Pedidos/portada1.jpg) no-repeat center;
     background-size: cover;
@@ -247,7 +248,7 @@ body {
 
 p {
     font-size: 1em;
-    line-height: 1.5;
+    line-height: 0;
 }
 
 .text-center {
@@ -300,7 +301,7 @@ a {
 h2.txt-w3_agile {
     font-size: 4em;
     color: #EFB810;
-    line-height: 1.5;
+    line-height: 1;
     text-transform: capitalize;
     font-weight: 600;
     margin: 0.8em 0;
