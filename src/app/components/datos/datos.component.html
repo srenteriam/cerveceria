@@ -1,0 +1,46 @@
+<div class="container section1">
+    <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+        <div class="text-center titulo1">
+        <h1>Lista de Pedidos</h1>
+        </div>
+        <div>
+            <table class="table table-light table-hover tabla1">
+                <thead>
+                  <tr>
+                    <th scope="col">Nombre</th>
+                    <th scope="col">Correo</th>
+                    <th scope="col">Tipo</th>
+                    <th scope="col">RedAle</th>
+                    <th scope="col">Porter</th>
+                    <th scope="col">PaleAle</th>
+                    <th scope="col">Total</th>
+                    <th scope="col">Direccion</th>
+                    <th scope="col">Telefono</th>
+                    <th scope="col">Comentario</th>
+                    <th scope="col"><i class="fas fa-user-plus agregar1" routerLink="/pedidos"></i></th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr *ngFor="let verc of listapedidos">
+                    <td scope="row">{{verc.nombre}}</td>
+                    <td>{{verc.correo}}</td>
+                    <td>{{verc.tipo}}</td>
+                    <td>{{verc.redAle}}</td>
+                    <td>{{verc.porter}}</td>
+                    <td>{{verc.paleAle}}</td>
+                    <td>{{verc.total}}</td>
+                    <td>{{verc.direccion}}</td>
+                    <td>{{verc.telefono}}</td>
+                    <td>{{verc.comentario}}</td>
+                    <td>
+                        <!-- <i class="fas fa-user-edit editar1" ></i> -->
+                        <i class="fas fa-user-minus eliminar1" routerLink="/datos/{{verc._id}}"></i></td>
+                  </tr>
+                  </tbody>
+              </table>
+        </div>
+    </div>
+</div>
+
+
+<!-- routerLink="/datos/{{verc._id}}" -->

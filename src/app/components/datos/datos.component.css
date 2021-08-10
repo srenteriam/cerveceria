@@ -1,0 +1,36 @@
+.section1{
+    margin-top: 150px;
+}
+
+.titulo1 h1{
+    color: #89640a;
+    font-size: 40px;
+    font-family: 'Gruppo', cursive;
+}
+
+.tabla1 th{
+    font-family: 'Gruppo', cursive;
+    color: #89640a;
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.fas{
+    color: black;
+    margin-left: 15px;
+}
+
+.eliminar1:hover{
+    cursor: pointer !important;
+    color: red !important;
+}
+
+/* .editar1:hover{
+    cursor: pointer !important;
+    color: rgb(12, 12, 241) !important;
+} */
+
+.agregar1:hover{
+    cursor: pointer !important;
+    color: green !important;
+}

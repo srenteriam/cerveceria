@@ -8,7 +8,7 @@ export class PeticionService {
 
   constructor(private http :HttpClient) { }
 
-  Post(url:string,data:{}) {
+  Post(url:string,data:{}): Promise<any> {
 
     let promise = new Promise((resolve, reject) => {
 

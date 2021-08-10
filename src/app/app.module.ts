@@ -27,6 +27,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatSliderModule } from '@angular/material/slider';
 import { HttpClientModule } from '@angular/common/http';
 import { PaginaEnMantenimientoComponent } from './components/pagina-en-mantenimiento/pagina-en-mantenimiento.component';
+import { DatosComponent } from './components/datos/datos.component';
 
 
 
@@ -54,6 +55,7 @@ import { PaginaEnMantenimientoComponent } from './components/pagina-en-mantenimi
     TargetasComponent,
     PortadaMAComponent,
     PaginaEnMantenimientoComponent,
+    DatosComponent,
     
 
   ],

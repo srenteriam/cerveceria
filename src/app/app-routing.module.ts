@@ -9,6 +9,8 @@ import { QuienesSomosComponent } from './components/quienes-somos/quienes-somos.
 
 import { FormularioPedidosComponent } from './components/pedidos/formulario-pedidos/formulario-pedidos.component';
 import { PedidosComponent } from './components/pedidos/pedidos.component';
+import { DatosComponent } from './components/datos/datos.component';
+
 
 
 
@@ -22,8 +24,11 @@ const routes: Routes = [
 
   {path: 'contactos', component:ContactoComponent},
   {path: 'pedidos', component:PedidosComponent},
-  {path: 'formulario', component:FormularioPedidosComponent}
+  {path: 'formulario', component:FormularioPedidosComponent},
+  {path: 'datos', component:DatosComponent},
+  {path: 'datos/:id', component:DatosComponent},
 
+  {path:'**', redirectTo:'inicio',pathMatch:'full'},
  
 ];
 
