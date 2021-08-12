@@ -14,9 +14,9 @@ export class FormularioPedidosComponent implements OnInit {
   nombreP = "";
   correoP = "";
   tipoP = "";
-  redAleP = "";
-  porterP = "";
-  paleAleP = "";
+  redAleP="";
+  porterP="";
+  paleAleP="";
   totalP = "";
   direccionP = "";
   telefonoP  = "";
@@ -31,6 +31,7 @@ export class FormularioPedidosComponent implements OnInit {
   crearpedido(){
   
     console.log('Estamos Registrando')
+    this.redAleP = this.redAleP
 
     this.Peticion.Post('http://localhost:3000/create',{
       nombre:this.nombreP, 
