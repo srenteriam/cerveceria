@@ -1,7 +1,7 @@
 <section id="contact" class="contact">
   <div class="container">
     <div class="section-title" data-aos="fade-up" data-aos-duration="4000">
-      <h2>Contacta con nosotros</h2>
+      <h2>Contactanos</h2>
     </div>
 
     <div class="row">
@@ -13,7 +13,7 @@
               data-aos-duration="4000"
               class="bi bi-geo-alt"
             ></i>
-            <h4 data-aos="fade-up" data-aos-duration="4000">Location:</h4>
+            <h4 data-aos="fade-up" data-aos-duration="4000">Ubicación:</h4>
             <p data-aos="fade-up" data-aos-duration="4000">Guarne, Antioquia</p>
           </div>
 
@@ -33,7 +33,7 @@
               data-aos-duration="4000"
               class="bi bi-phone"
             ></i>
-            <h4 data-aos="fade-up" data-aos-duration="4000">Llamada:</h4>
+            <h4 data-aos="fade-up" data-aos-duration="4000">Telefono:</h4>
             <p data-aos="fade-up" data-aos-duration="4000">+57 317 3824538</p>
           </div>
 
@@ -60,13 +60,13 @@
               data-aos-duration="4000"
             >
               <label for="name"
-                >Your Name <span style="color: red">*</span></label
+                >Nombre <span style="color: red">*</span></label
               >
               <input 
               [(ngModel)]="nombreC"
                 type="text"
                 name="name"
-                placeholder="( ͡❛ ͜ʖ ͡❛)    Your Name"
+                placeholder="Nombre completo"
                 class="form-control"
                 id="name"
                 
@@ -79,13 +79,13 @@
               data-aos-duration="4000"
             >
               <label for="name" 
-                >Your Email <span  style="color: red">*</span></label 
+                >Email <span  style="color: red">*</span></label 
               >
               <input
               [(ngModel)]="emailC"              
                 type="email"
                 class="form-control"
-                placeholder="(ノ ͡ಠ ͜ʖ ͡ಠ)ノ   info@example.com                                ✉"
+                placeholder="✉  info@example.com "
                 name="email"
                 id="email"    
                                            
@@ -98,12 +98,12 @@
             data-aos="fade-up"
             data-aos-duration="4000"
           >
-            <label for="name">Subject <span style="color: red">*</span></label>
+            <label for="name">Asunto <span style="color: red">*</span></label>
             <input
             [(ngModel)]="sujetoC"            
               type="text"
               class="form-control"
-              placeholder="( ͡ಠ ͜ʖ ͡ಠ)   Subject"
+              placeholder="Asunto"
               name="subject"
               id="subject"
               
@@ -114,12 +114,12 @@
             data-aos="fade-up"
             data-aos-duration="4000"
           >
-            <label for="name">Message <span style="color: red">*</span></label>
+            <label for="name">Mensaje<span style="color: red">*</span></label>
             <textarea
             [(ngModel)]="mensajeC"            
               class="form-control"
               name="message"
-              placeholder="    (⊙.⊙(☉̃ₒ☉)⊙.⊙)         Menssage"
+              placeholder="Mensaje"
               rows="10"
               required
               
@@ -127,9 +127,10 @@
           </div>
          
           <div id="clase1" class="text-center bu" >
-            <div (click)="registrar()" type="submit">Send Message</div>
+            <div (click)="registrar()" type="submit">Enviar</div>
           </div>
-        </div><!-- A qui termina formulario -->
+        </div>
+        <!-- A qui termina formulario -->
         
       </div>
     </div>
