@@ -1,11 +1,11 @@
 const { DOCUMENT } = require("@angular/common");
 
-// ****************rubia*****************************
+
+
+// ****************redAleP*****************************
 function incrementar() {
     valor = document.getElementById("item");
     if (valor.value < 100) valor.value++;
-
-
 
 }
 
@@ -22,7 +22,7 @@ function decrementar() {
 
 
 
-// *************Morena********************
+// *************porterP********************
 
 function incrementarr() {
     valor = document.getElementById("itemm");
@@ -39,7 +39,7 @@ function decrementarr() {
     if (valor.value > 00) valor.value--;
 }
 
-// *************CLARA********************
+// *************paleAleP********************
 function incrementars() {
     valor = document.getElementById("items");
     if (valor.value < 100) valor.value++;
@@ -56,22 +56,22 @@ function decrementars() {
 }
 
 function totalCervezas() {
-    var rubia = parseInt(documement.getElementById('item').value);
-    console.log(rubia)
+    var redAleP = parseInt(documement.getElementById('item').value);
+    console.log(redAleP)
 
 }
-
+ 
 
 
 
 function totalCervezas() {
-    var rubia = document.getElementById('item').value;
-    var morena = document.getElementById('itemm').value;
-    var clara = document.getElementById('items').value
+    var redAleP = document.getElementById('item').value;
+    var porterP = document.getElementById('itemm').value;
+    var paleAleP = document.getElementById('items').value
 
-    var totall = parseInt(morena) + parseInt(rubia) + parseInt(clara);
+    var totalP = parseInt(porterP) + parseInt(redAleP) + parseInt(paleAleP);
 
-    document.getElementById('total').value = totall;
+    document.getElementById('total').value = totalP;
 
 
 
@@ -79,13 +79,15 @@ function totalCervezas() {
 }
 
 function restaCervezas() {
-    var rubia = document.getElementById('item').value;
-    var morena = document.getElementById('itemm').value;
-    var clara = document.getElementById('items').value
+    var redAleP = document.getElementById('item').value;
+    var porterP = document.getElementById('itemm').value;
+    var paleAleP = document.getElementById('items').value
 
-    var totall = parseInt(morena) + parseInt(rubia) + parseInt(clara)
+    var totalP = parseInt(porterP) + parseInt(redAleP) + parseInt(paleAleP)
 
-    document.getElementById('total').value = totall;
+    document.getElementById('total').value = totalP;
+
+    console.log(totalP);
 
 
 
@@ -100,9 +102,7 @@ window.onload = function() {
     })
 }
 
-// function ejemplo(){
-//     alert('Diego Trujillo')
-// }
+
 
 // ========================== validacion=======================
 

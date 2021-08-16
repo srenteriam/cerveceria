@@ -11,5 +11,6 @@ export class PortadaComponent implements OnInit {
 
   ngOnInit(): void {
   }
+  
 
 }
