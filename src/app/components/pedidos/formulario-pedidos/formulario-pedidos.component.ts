@@ -14,9 +14,9 @@ export class FormularioPedidosComponent implements OnInit {
   nombreP = "";
   correoP = "";
   tipoP = "";
-  redAleP="";
-  porterP="";
-  paleAleP="";
+  redAleP="0";
+  porterP="0";
+  paleAleP="0";
   totalP = "";
   direccionP = "";
   telefonoP  = "";
